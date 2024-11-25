@@ -14,8 +14,8 @@
     --rose-800: hsl(332, 51%, 32%);
     --rose-50: hsl(330, 100%, 98%);
     --small-space: 15px;
-    --medium-space: 30px;
-    --large-space: 40px;
+    --medium-space: 25px;
+    --large-space: 35px;
     font-size: 16px;
 }
 
@@ -69,7 +69,7 @@ body {
 
 .recipe-card .preparation-note {
     background-color: var(--rose-50);
-    padding: 40px;
+    padding: 30px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -90,7 +90,7 @@ body {
 .recipe-card .preparation-note ul li {
     padding-left: 15px;
     padding-bottom: 10px;
-    
+    font-size: 1rem;
 }
 
 .recipe-card .preparation-note ul li:last-child {
