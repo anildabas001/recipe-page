@@ -30,14 +30,14 @@ body {
     padding: 10px;
     display: flex;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 .recipe-card {
     background-color: var(--white-color);
-    width: 560px;
+    width: 700px;
     min-width: 355px;
-    padding: 30px;
+    padding: 35px;
     display: flex;
     flex-direction: column;
     gap: var(--large-space);
@@ -45,7 +45,7 @@ body {
 }
 
 .recipe-card header img {
-    max-width: 500px;
+    max-width: 100%;
     height: auto;
     object-fit: contain;
     border-radius: 10px;
@@ -64,7 +64,7 @@ body {
 }
 
 .recipe-card .main-intro p {
-    font-size: 0.78rem;
+    /* font-size: 0.78rem; */
     color: var(--stone-600);
 }
 
@@ -85,7 +85,7 @@ body {
 .recipe-card .preparation-note ul {
     padding-left: 20px;
     color: var(--rose-800);
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
 }
 
 .recipe-card .preparation-note ul li {
@@ -127,7 +127,7 @@ body {
 .recipe-card .instruction-list ol {
     padding-left: 20px;
     color: var(--brown-800);
-    font-size: 0.8rem;    
+    /* font-size: 0.8rem;     */
     display: flex;
     flex-direction: column;
     gap: var(--small-space);
@@ -154,7 +154,7 @@ body {
 
 .nutrition-section {
     color: var(--stone-600);
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
 }
 
 .nutrition-section table tbody tr td {
