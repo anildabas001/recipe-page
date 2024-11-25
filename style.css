@@ -44,6 +44,9 @@ body {
     border-radius: 20px;
 }
 
+.recipe-card p {
+    line-height: 1.4;
+}
 .recipe-card header img {
     max-width: 100%;
     height: auto;
